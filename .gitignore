@@ -1,0 +1,101 @@
+# ============================================================
+# Arduino / ESP32
+# ============================================================
+
+# Arduino IDE 2.x temporary files
+*.ino.cpp
+*.ino.cpp.d
+
+# Build directories
+build/
+Build/
+dist/
+
+# PlatformIO (por si lo usas en el futuro)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+build/
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensiones compiladas
+*.so
+*.pyd
+*.dll
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Herramientas de testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Herramientas de análisis
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ============================================================
+# Visual Studio Code
+# ============================================================
+
+.vscode/
+
+# ============================================================
+# JetBrains
+# ============================================================
+
+.idea/
+
+# ============================================================
+# Sistema operativo
+# ============================================================
+
+# Linux
+*~
+.nfs*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+
+# ============================================================
+# Archivos temporales
+# ============================================================
+
+*.tmp
+*.temp
